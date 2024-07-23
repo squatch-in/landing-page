@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header,
@@ -15,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
+    padding: 12px 96px 12px 96px;
 }
 
 .logo {
@@ -23,8 +24,14 @@ body {
    color: #f9faf8;
 }
 
+.ul {
+    display: flex;
+    gap: 15px;
+}
+
 a {
     text-decoration: none;
+    align-content: center;
 }
 
 .title {
@@ -37,20 +44,28 @@ a {
 .cont {
     display: flex;
     justify-content: space-between;
-    padding: 48px;
+    padding: 48px 96px 48px 96px;
 }
 
 
 .container {
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .mini {
     height: 300px;
     width: 200px;
     margin: 10px;
+    text-align: center;
+}
+
+.under-photos {
+    text-align: center;
 }
 
 a,
